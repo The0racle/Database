@@ -19,6 +19,7 @@
 		7724B22016DD841F00E1CA1E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7724B21E16DD841F00E1CA1E /* MainStoryboard_iPhone.storyboard */; };
 		7724B22316DD841F00E1CA1E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7724B22116DD841F00E1CA1E /* MainStoryboard_iPad.storyboard */; };
 		7724B22616DD841F00E1CA1E /* DatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7724B22516DD841F00E1CA1E /* DatabaseViewController.m */; };
+		7724B22D16DD845900E1CA1E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7724B22C16DD845900E1CA1E /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		7724B22216DD841F00E1CA1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		7724B22416DD841F00E1CA1E /* DatabaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseViewController.h; sourceTree = "<group>"; };
 		7724B22516DD841F00E1CA1E /* DatabaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseViewController.m; sourceTree = "<group>"; };
+		7724B22C16DD845900E1CA1E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7724B22D16DD845900E1CA1E /* libsqlite3.dylib in Frameworks */,
 				7724B20716DD841F00E1CA1E /* UIKit.framework in Frameworks */,
 				7724B20916DD841F00E1CA1E /* Foundation.framework in Frameworks */,
 				7724B20B16DD841F00E1CA1E /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +78,7 @@
 		7724B20516DD841F00E1CA1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7724B22C16DD845900E1CA1E /* libsqlite3.dylib */,
 				7724B20616DD841F00E1CA1E /* UIKit.framework */,
 				7724B20816DD841F00E1CA1E /* Foundation.framework */,
 				7724B20A16DD841F00E1CA1E /* CoreGraphics.framework */,
